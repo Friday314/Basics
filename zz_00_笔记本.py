@@ -15,7 +15,7 @@ print(_str.replace(" ", "_"))
 print("\t")
 
 
-_str = "**  Python is My Love  **"
+_str = "  **  Python is My Love  **  "
 print("_str 原文本：%s" % _str)
 
 # strip() 返回除去字符串两边的空格，不包含字符串中的空格。也可以指定需要除去字符
