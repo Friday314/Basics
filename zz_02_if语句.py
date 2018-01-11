@@ -70,4 +70,4 @@ while True: # 升级版，如果用户输入错误，则重新输入，输入正
         print("星期天")
         break
     else:
-        print("输入错误！")
+        print("输入错误。请重新输入！")
