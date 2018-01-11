@@ -13,6 +13,7 @@ if 条件:
     逻辑运算符
     or      或者
     and     和
+    not     取反
 """
 
 age = 19
@@ -39,3 +40,34 @@ if age >= 18:
     print("你可以去网吧嗨皮了！")
 else:
     print("你还是回家睡大觉吧！")
+
+
+# 练习：输出打印星期，输入1：打印星期一 ... 输入7：打印星期天
+
+while True: # 升级版，如果用户输入错误，则重新输入，输入正确为止
+
+    number = int(input("请输入数字(1 - 7):"))
+
+    if number == 1:
+        print("星期一")
+        break
+    elif number == 2:
+        print("星期二")
+        break
+    elif number == 3:
+        print("星期三")
+        break
+    elif number == 4:
+        print("星期四")
+        break
+    elif number == 5:
+        print("星期五")
+        break
+    elif number == 6:
+        print("星期六")
+        break
+    elif number == 7:
+        print("星期天")
+        break
+    else:
+        print("输入错误！")
