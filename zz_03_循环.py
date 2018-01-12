@@ -45,3 +45,18 @@ urls = ["www.baidu.com/pdf{}".format(number)
 for url in urls:
     print(url)
 
+
+# 练习输出打印矩形
+
+def _print(number):
+
+    _i = 1
+
+    while _i <= number:
+
+        print("*" * _i)
+
+        _i += 1
+
+
+_print(10)
