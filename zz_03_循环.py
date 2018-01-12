@@ -9,11 +9,11 @@ while True:
 
 """
 
-i = 1
+_i = 1
 
-while i <= 10:
-    print(i)
-    i += 1
+while _i <= 10:
+    print(_i)
+    _i += 1
 
 
 """
@@ -27,8 +27,8 @@ item        表示元素
 iterable    是集合
 
 """
-for i in range(1, 11):
-    print(i)
+for _i in range(1, 11):
+    print(_i)
 
 
 names = ["xiaoming", "wangwu", "peter"]
@@ -60,3 +60,22 @@ def _print(number):
 
 
 _print(10)
+
+
+# 输出打印99乘法表
+
+_i = 1
+
+while _i <= 9:
+
+    _j = 1
+
+    while _j <= _i:
+
+        print("%d * %d = %d\t" % (_j, _i, _i * _j), end="")
+
+        _j += 1
+
+    print("")
+
+    _i += 1
