@@ -18,17 +18,9 @@ def rock_paper_scissors():
             print(ran)
             print("输入错误，请重新输入！")
 
-        elif ran == 0 and number == 2:
+        elif number == 0 and ran == 2 or number == 1 and ran == 0 or number == 2 and ran == 1:
             print(ran)
-            print("输了，不要走，决战到天亮！")
-
-        elif ran == 1 and number == 0:
-            print(ran)
-            print("输了，不要走，决战到天亮！")
-
-        elif ran == 2 and number == 0:
-            print(ran)
-            print("输了，不要走，决战到天亮！")
+            print("恭喜你！取得胜利！！！")
 
         elif ran == number:
             print(ran)
@@ -36,7 +28,7 @@ def rock_paper_scissors():
 
         else:
             print(ran)
-            print("恭喜你！取得胜利！")
+            print("输了，洗洗手，我们继续")
 
 
 rock_paper_scissors()
