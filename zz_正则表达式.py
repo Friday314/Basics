@@ -63,3 +63,61 @@ a = "ssIssfddfgssLovessfdfdsfedsfssPythonss"
 infos = re.findall("ss(.*?)ss", a)
 
 print(infos)
+
+
+"""
+
+search() 匹配并提取第一个符合规律的内容，返回一个正则表达式对象
+
+re.match(pattern, string, flags=0)
+
+pattern     为匹配的正则表达式
+string      为要匹配的字符串
+flags       为标志符，用于控制正则表达式的匹配方式，如是否区分大小写，多行匹配等
+
+"""
+a = "one1two2three3"
+
+infos = re.match("\d+", a)
+
+print(infos)
+
+infos = re.search("\d+", a)
+
+print(infos)
+
+print(infos.group())
+
+
+"""
+
+sub() 用于替换字符串中的匹配项
+
+re.sub(pattern, repl, string, count=0, flags=0)
+
+pattern     为匹配的正则表达式
+repl        为替换的字符串
+string      为要被查找替换的原始字符串
+counts      为模式匹配后替换的最大次数，默认 0 表示替换所有的匹配
+flags       为标志符，用于控制正则表达式的匹配方式，如是否区分大小写，多行匹配等
+
+"""
+
+phone = "123-1234-5678"
+
+new_phone = re.sub("\D", "", phone)
+
+print(new_phone)
+
+
+"""
+
+findall() 匹配所有符合规律的内容，并以列表的形式返回结果
+
+"""
+
+a = "one1two2three3"
+
+infos = re.findall("\d+", a)
+
+print(infos)
