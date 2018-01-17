@@ -58,9 +58,8 @@
 
 import re
 
-a = "xxIxxLovexxPythonxx"
+a = "ssIssfddfgssLovessfdfdsfedsfssPythonss"
 
-infos = re.findall("xx(.*?)xx", a)
+infos = re.findall("ss(.*?)ss", a)
 
 print(infos)
-
