@@ -121,3 +121,33 @@ a = "one1two2three3"
 infos = re.findall("\d+", a)
 
 print(infos)
+
+
+"""
+
+    re模块修饰符
+    
+修饰符      描  述
+re.I    使匹配对大小写不敏感
+re.L    做本地化识别(locale-aware)匹配
+re.M    多行匹配，影响 ^ 和 $
+re.S    使匹配包括换行在内的所有字符
+re.U    根据Unicode字符集解析字符。这个标志影响\w \W \b \B
+re.X    该标志通过给予更灵活的格式，以便将正则表达式写的更易理解
+
+"""
+
+a = '<div>指数</div>'
+
+word = re.findall('<div>(.*?)</div>', a)
+
+print(word)
+
+a = '''<div>指数
+</div>'''
+
+word = re.findall('<div>(.*?)</div>', a, re.S)
+
+print(word)
+
+print(word[0].strip())  # 使用strip() 方法去除换行
