@@ -8,8 +8,8 @@ class Bike:
         print("you are riding")
 
 
-
 my_bike = Bike()
+
 you_bike = Bike()
 
 print(my_bike.compose)
