@@ -40,3 +40,16 @@ def get_wendu():
 
 
 get_wendu()
+
+
+# a未赋值，b赋值，表明为缺省参数，调动方法时，如为b赋值，就使用缺省参数。10
+def text(a, b = 10):
+    sums = a + b
+    print("sum = %d" % sums)
+
+
+# 调用缺省参数
+text(10)
+
+# 不使用缺省参数
+text(11,22)
