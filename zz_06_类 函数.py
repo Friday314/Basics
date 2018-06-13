@@ -1,3 +1,5 @@
+#coding=utf-8
+
 # 定义类
 class Bike:
 
@@ -98,3 +100,41 @@ number_3(11, 22, A, B)
 
 # 拆包调用
 number_3(11, 22, *A, **B)
+
+
+# 匿名函数
+
+# lambda 参数：式子
+
+func = lambda a, b: a + b
+
+number = func(111, 222)
+
+print(number)
+
+# 使用场景
+# 列表排序
+infos = [{"name" : "laowang", "age" : 20}, {"name" : "lisi", "age" : 11}, {"name" : "wangwu", "age" : 12}]
+
+print(infos)
+
+infos.sort(key = lambda x:x["age"])
+
+print(infos)
+
+
+# 动态代码语句
+def test(a, b, func):
+    sum = func(a, b)
+    print(sum)
+
+
+test(11, 22, lambda x ,y : x + y)
+
+# 升级版
+
+func_new = input("请输入一个匿名函数：")
+# eval() ,转义，字符串去掉冒号
+func_new = eval(func_new)
+
+text(11, 22, func_new)
