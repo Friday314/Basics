@@ -125,11 +125,12 @@ print(infos)
 
 # 动态代码语句
 def test(a, b, func):
-    sum = func(a, b)
-    print(sum)
+    result = func(a, b)
+    print(result)
 
 
-test(11, 22, lambda x ,y : x + y)
+# 初级版
+#test(11, 22, lambda x ,y : x + y)
 
 # 升级版
 
@@ -137,4 +138,4 @@ func_new = input("请输入一个匿名函数：")
 # eval() ,转义，字符串去掉冒号
 func_new = eval(func_new)
 
-text(11, 22, func_new)
+test(1111, 2222, func_new)
