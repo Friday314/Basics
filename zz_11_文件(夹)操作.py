@@ -1,5 +1,5 @@
 """
-文件操作
+文件读写
 
 Python 中通过open() 函数打开文件
 
@@ -99,5 +99,30 @@ f_write.close()
 # 关闭源文件
 f_read.close()
 
+"""
+文件(夹)操作
 
+导入包文件
+import os
 
+重命名
+os.rename("原文件名","新文件名")
+
+删除文件
+os.remove("文件名")
+
+创建文件夹
+os.mkdir("文件夹名称")
+
+获取当前目录
+os.getcwd()
+
+改变默认目录
+os.chdir("../")
+
+获取目录列表
+os.listdie("./")
+
+删除文件夹
+os.rmdir("文件夹名称")
+"""
