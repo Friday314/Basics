@@ -6,6 +6,10 @@ class Cat:
         self.name = new_name
         self.age = new_age
 
+    def __str__(self):
+        # 类似于C#语言的构造方法
+        return "猫的名字叫：%s，已经有%s岁了。" % (self.name, self.age)
+
     # 方法
     # self 谁调用这个类，self就表示谁
     def eat(self):
@@ -37,20 +41,23 @@ lanmao.eat()
 lanmao.drink()
 """
 cat = Cat()
-cat.introduce()
+# cat.introduce()
 cat.eat()
 cat.drink()
+print(cat)
 
 print()
 
 tom = Cat("汤姆", 44)
-tom.introduce()
+# tom.introduce()
 tom.eat()
 tom.drink()
+print(tom)
 
 print()
 
 lanmao = Cat("蓝猫", 19)
-lanmao.introduce()
+# lanmao.introduce()
 lanmao.eat()
 lanmao.drink()
+print(lanmao)

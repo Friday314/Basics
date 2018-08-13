@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa5068f-6c38-4e70-87bf-565a1f190341" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/zz_12_面向对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zz_13_魔法方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zz_14_隐藏属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zz_15_私有方法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_13_魔法方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_13_魔法方法.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Basics$zz_14_.coverage" NAME="zz_14_隐藏属性 Coverage Results" MODIFIED="1534160462074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$zz_12_.coverage" NAME="zz_12_面向对象 Coverage Results" MODIFIED="1534156552682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Basics$zz_13_.coverage" NAME="zz_13_魔法方法 Coverage Results" MODIFIED="1534157802429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$zz_13_.coverage" NAME="zz_13_魔法方法 Coverage Results" MODIFIED="1534158705508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$zz_15_.coverage" NAME="zz_15_私有方法 Coverage Results" MODIFIED="1534161124218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$zz_06__.coverage" NAME="zz_06_类 函数 Coverage Results" MODIFIED="1534154342081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -32,25 +35,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="py" value="862" />
+          <entry key="py" value="1212" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="862" />
+          <entry key="Python" value="1212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -71,22 +74,43 @@
         <entry file="file://$PROJECT_DIR$/zz_12_面向对象.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="24" column="7" lean-forward="true" selection-end-line="31" selection-end-column="14" />
+              <caret line="24" column="7" selection-end-line="31" selection-end-column="14" />
               <folding>
-                <marker date="1534157788000" expanded="true" signature="16:21" ph="..." />
+                <marker date="1534157897000" expanded="true" signature="16:21" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zz_13_魔法方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <marker date="1534159217000" expanded="true" signature="191:256" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zz_14_隐藏属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1534160462000" expanded="true" signature="11:16" ph="..." />
+                <marker date="1534160462000" expanded="true" signature="11:208" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zz_13_魔法方法.py">
+        <entry file="file://$PROJECT_DIR$/zz_15_私有方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding>
-                <marker date="1534157802000" expanded="true" signature="92:155" ph="..." />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -112,6 +136,8 @@
         <option value="$PROJECT_DIR$/zz_11_文件(夹)操作.py" />
         <option value="$PROJECT_DIR$/zz_12_面向对象.py" />
         <option value="$PROJECT_DIR$/zz_13_魔法方法.py" />
+        <option value="$PROJECT_DIR$/zz_14_隐藏属性.py" />
+        <option value="$PROJECT_DIR$/zz_15_私有方法.py" />
       </list>
     </option>
   </component>
@@ -170,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zz_13_魔法方法">
+  <component name="RunManager" selected="Python.zz_15_私有方法">
     <configuration name="zz_06_类 函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,13 +263,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zz_14_隐藏属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zz_14_隐藏属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zz_15_私有方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zz_15_私有方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.zz_12_面向对象" />
       <item itemvalue="Python.zz_06_类 函数" />
       <item itemvalue="Python.zz_13_魔法方法" />
+      <item itemvalue="Python.zz_14_隐藏属性" />
+      <item itemvalue="Python.zz_15_私有方法" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zz_15_私有方法" />
+        <item itemvalue="Python.zz_14_隐藏属性" />
         <item itemvalue="Python.zz_13_魔法方法" />
         <item itemvalue="Python.zz_12_面向对象" />
         <item itemvalue="Python.zz_06_类 函数" />
@@ -282,19 +356,27 @@
       <option name="project" value="LOCAL" />
       <updated>1534152458932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1534157898126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534157898126</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="691" y="22" width="1680" height="981" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.17097862" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3655793" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -386,20 +468,37 @@
     <entry file="file://$PROJECT_DIR$/zz_12_面向对象.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="24" column="7" lean-forward="true" selection-end-line="31" selection-end-column="14" />
+          <caret line="24" column="7" selection-end-line="31" selection-end-column="14" />
           <folding>
-            <marker date="1534157788000" expanded="true" signature="16:21" ph="..." />
+            <marker date="1534157897000" expanded="true" signature="16:21" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zz_13_魔法方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <marker date="1534157802000" expanded="true" signature="92:155" ph="..." />
+            <marker date="1534159217000" expanded="true" signature="191:256" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz_14_隐藏属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534160462000" expanded="true" signature="11:16" ph="..." />
+            <marker date="1534160462000" expanded="true" signature="11:208" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz_15_私有方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
