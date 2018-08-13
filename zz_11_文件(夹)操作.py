@@ -29,7 +29,13 @@ readlines() 按行读取，返回列表
 
 
 文件定位读写
+seek(offset, from)
 
+offset:偏移量
+from:方向
+    0:表示文件开头
+    1:表示当前位置
+    2:表示文件末尾
 
 """
 
