@@ -45,17 +45,27 @@ _dict = {"Name": "ZhangSan",
 print(type(_number))
 print(_number)
 
+print("----------------")
+
 print(type(_str))
 print(_str)
+
+print("----------------")
 
 print(type(_bool))
 print(_bool)
 
+print("----------------")
+
 print(type(_list))
 print(_list)
 
+print("----------------")
+
 print(type(_tup))
 print(_tup)
+
+print("----------------")
 
 print(type(_dict))
 print(_dict)
