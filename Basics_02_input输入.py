@@ -10,6 +10,21 @@
 
 # 扫描控制台,获得用户的输入信息
 # input() 输入函数
-Number = input("请输入一个数字:")
+Number1 = int(input("请输入第一个数字:"))
 
-print("Number = ", Number)
+Number2 = int(input("请输入第二个数字:"))
+
+Temp = Number1 + Number2
+
+print("Number1 + Number2 = ", Temp)
+
+# 查看变量的内存地址 id
+print(id(Temp))
+
+# 删除变量 del
+
+del Temp
+
+# 删除变量之后,在调用变量,程序报错
+# print(Temp)
+

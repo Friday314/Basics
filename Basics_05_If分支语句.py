@@ -1,4 +1,14 @@
-"""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time        : 2019/5/8 15:51
+# @Author     : 张正
+# @Email       : zhangzheng@email.com
+# @Site         :
+# @File          : Basics_04_运算符与表达式.py
+# @Software  : PyCharm
+
+
+'''
 if 用来完成判断
 
 if 条件:
@@ -14,7 +24,7 @@ if 条件:
     or      或者
     and     和
     not     取反
-"""
+'''
 
 age = 19
 
