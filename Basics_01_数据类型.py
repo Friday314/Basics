@@ -1,13 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date    : 2019-05-08 10:12:02
-# @Author  : Zheng Zhang (zhangzheng@email.com)
-# @Link    : 
-# @Version : 1.0
+# @Time        : 2019/5/8 13:45
+# @Author     : 张正
+# @Email       : zhangzheng@email.com
+# @Site         :
+# @File          : Basics_01_数据类型.py
+# @Software  : PyCharm
+
 
 import os
 
-"""
+'''
 
                                             int(有符号整数)
 
@@ -34,7 +37,9 @@ Tuple (元组)
 
 Dictionary (字典)
 
-"""
+None (空值)
+
+'''
 
 _number = 100
 
