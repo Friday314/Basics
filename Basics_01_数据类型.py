@@ -9,18 +9,18 @@ import os
 
 """
 
-                int(有符号整数)
+                                            int(有符号整数)
 
-                long(长整型【也可以代表八进制和十六进制】)
+                                            long(长整型【也可以代表八进制和十六进制】)
 Number (数字)
-                float(浮点型)
+                                            float(浮点型)
 
-                complex(复数)
+                                            complex(复数)
 
 
-                True
+                                            True
 布尔类型
-                False
+                                            False
 
 
 String (字符串类型)
