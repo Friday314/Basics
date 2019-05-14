@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_01_数据类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_01_数据类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_02_input输入.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_02_input输入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_05_分支语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_05_分支语句.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_06_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_06_String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_07_循环语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_07_循环语句.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics_08_列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_08_列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_练习_石头剪刀布.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_练习_石头剪刀布.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_06_类 函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_06_类 函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_07_引用.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_07_引用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_08_可变_不可变类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_08_可变_不可变类型.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_09_递归.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_09_递归.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_11_文件(夹)操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_11_文件(夹)操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_正则表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_正则表达式.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Basics_08_列表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="1164">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
@@ -131,7 +119,6 @@
         <option value="$PROJECT_DIR$/Basics_05_分支语句.py" />
         <option value="$PROJECT_DIR$/Basics_06_String.py" />
         <option value="$PROJECT_DIR$/Basics_07_循环语句.py" />
-        <option value="$PROJECT_DIR$/Basics_08_列表.py" />
         <option value="$PROJECT_DIR$/Basics_练习_石头剪刀布.py" />
         <option value="$PROJECT_DIR$/zz_06_类 函数.py" />
         <option value="$PROJECT_DIR$/zz_07_引用.py" />
@@ -139,6 +126,7 @@
         <option value="$PROJECT_DIR$/zz_09_递归.py" />
         <option value="$PROJECT_DIR$/zz_11_文件(夹)操作.py" />
         <option value="$PROJECT_DIR$/zz_正则表达式.py" />
+        <option value="$PROJECT_DIR$/Basics_08_列表.py" />
       </list>
     </option>
   </component>
@@ -351,7 +339,7 @@
       <workItem from="1557372203384" duration="3598000" />
       <workItem from="1557450403581" duration="1801000" />
       <workItem from="1557794193254" duration="2271000" />
-      <workItem from="1557818271646" duration="4435000" />
+      <workItem from="1557818271646" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -395,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557818581775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit">
+      <created>1557823086390</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557823086390</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24907000" />
+    <option name="totallyTimeSpent" value="26577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -466,7 +461,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Basics$Basics_01_.coverage" NAME="Basics_01_数据类型 Coverage Results" MODIFIED="1557301371224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Basics$Basics_08_.coverage" NAME="Basics_08_列表 Coverage Results" MODIFIED="1557822288037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$Basics_08_.coverage" NAME="Basics_08_列表 Coverage Results" MODIFIED="1557823829645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_03_Python.coverage" NAME="Basics_03_查看Python关键字 Coverage Results" MODIFIED="1557295101610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_04_.coverage" NAME="Basics_04_运算符与表达式 Coverage Results" MODIFIED="1557302686583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_02_input.coverage" NAME="Basics_02_input输入 Coverage Results" MODIFIED="1557300616377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -627,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics_08_列表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="1164">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>

@@ -81,3 +81,15 @@ print(Number)
 # 升序
 Number.sort()
 print(Number)
+
+# 深拷贝
+Number2 = Number.copy()
+
+print(id(Number))
+print(id(Number2))
+
+# 将元祖转换成列表
+
+li = list((1, 2, 3))
+print(type(li))
+print(li)
