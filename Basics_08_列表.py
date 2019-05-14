@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time        : 2019/5/14 15:19
+# @Author     : 张正
+# @Email       : zhangzheng@email.com
+# @Site         :
+# @File          : Basics_04_运算符与表达式.py
+# @Software  : PyCharm
+
+
 # 定义一个列表
 names = ['zhangsan', 'lisi', 'wangwu']
 
