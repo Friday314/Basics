@@ -12,7 +12,6 @@ import random
 
 
 def rock_paper_scissors():
-
     """
     石头剪刀布游戏
     """

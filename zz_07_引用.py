@@ -6,7 +6,6 @@ print(id(a))
 
 print(id(b))
 
-
 c = [1, 2, 3, 4, 5]
 
 d = c
@@ -22,4 +21,3 @@ B = A
 print(id(A))
 
 print(id(B))
-

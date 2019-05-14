@@ -64,7 +64,6 @@ infos = re.findall("ss(.*?)ss", a)
 
 print(infos)
 
-
 """
 
 search() 匹配并提取第一个符合规律的内容，返回一个正则表达式对象
@@ -88,7 +87,6 @@ print(infos)
 
 print(infos.group())
 
-
 """
 
 sub() 用于替换字符串中的匹配项
@@ -109,7 +107,6 @@ new_phone = re.sub("\D", "", phone)
 
 print(new_phone)
 
-
 """
 
 findall() 匹配所有符合规律的内容，并以列表的形式返回结果
@@ -121,7 +118,6 @@ a = "one1two2three3"
 infos = re.findall("\d+", a)
 
 print(infos)
-
 
 """
 

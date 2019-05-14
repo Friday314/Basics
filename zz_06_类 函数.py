@@ -1,8 +1,7 @@
-#coding=utf-8
+# coding=utf-8
 
 # 定义类
 class Bike:
-
     compose = ['frame', 'wheel', 'pedal']
 
     # 定义方法
@@ -19,13 +18,11 @@ print(you_bike.compose)
 
 my_bike.use()
 
-
 # 定义一个全局变量
 wendu = 33
 
 
 def get_wendu():
-
     # 定义的局部变量
     # wendu = 30
 
@@ -45,7 +42,7 @@ get_wendu()
 
 
 # a未赋值，b赋值，表明为缺省参数，调动方法时，如为b赋值，就使用缺省参数。10
-def text(a, b = 10):
+def text(a, b=10):
     sums = a + b
     print("sum = %d" % sums)
 
@@ -54,7 +51,7 @@ def text(a, b = 10):
 text(10)
 
 # 不使用缺省参数
-text(11,22)
+text(11, 22)
 
 
 # 不定长参数,*args,代表一个元祖。如果方法有多个参数，元祖需要放在最后一个参数
@@ -82,7 +79,7 @@ def number_2(a, b, *args, **kwargs):
     print(kwargs)
 
 
-number_2(11, 22, 33, A = 11, B = 22)
+number_2(11, 22, 33, A=11, B=22)
 
 
 # 拆包
@@ -94,13 +91,12 @@ def number_3(a, b, *args, **kwargs):
 
 
 A = (33, 44, 55)
-B = {"name":"laowang", "age":18}
+B = {"name": "laowang", "age": 18}
 
 number_3(11, 22, A, B)
 
 # 拆包调用
 number_3(11, 22, *A, **B)
-
 
 # 匿名函数
 
@@ -114,11 +110,11 @@ print(number)
 
 # 使用场景
 # 列表排序
-infos = [{"name" : "laowang", "age" : 20}, {"name" : "lisi", "age" : 11}, {"name" : "wangwu", "age" : 12}]
+infos = [{"name": "laowang", "age": 20}, {"name": "lisi", "age": 11}, {"name": "wangwu", "age": 12}]
 
 print(infos)
 
-infos.sort(key = lambda x:x["age"])
+infos.sort(key=lambda x: x["age"])
 
 print(infos)
 
@@ -130,7 +126,7 @@ def test(a, b, func):
 
 
 # 初级版
-#test(11, 22, lambda x ,y : x + y)
+# test(11, 22, lambda x ,y : x + y)
 
 # 升级版
 

@@ -57,7 +57,6 @@ print(f.read())
 # 关闭文件
 f.close()
 
-
 # 练习题，制作文件备份
 
 # 输入文件路径及文件名称
@@ -84,7 +83,7 @@ wr.write(re.read())
 
 # 源文件写入备份文件（升级版）
 while True:
-    content = f_read.read(1024)     # 一次只读取1024字节
+    content = f_read.read(1024)  # 一次只读取1024字节
 
     print(content)
 

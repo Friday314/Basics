@@ -8,10 +8,11 @@
 # @Software  : PyCharm
 
 
-# 导入,数学相关库
-import math
 # 随机数库
 import random
+
+# 导入,数学相关库
+import math
 
 '''
 
@@ -129,4 +130,3 @@ print(random.choice([1, 2, 3, 9, 5, 4, 6, 7, 4, 4, 5, 6, 7]))
 # 产生一个1-100之间的随机数
 rand = random.choice(range(100)) + 1
 print(rand)
-

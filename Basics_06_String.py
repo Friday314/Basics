@@ -21,9 +21,7 @@ print(_str.split(" "))
 print("replace()方法：", end="")
 print(_str.replace(" ", "_"))
 
-
 print("\t")
-
 
 __str = "  **  Python is My Love  **  "
 print("_str 原文本：%s" % _str)
@@ -34,12 +32,10 @@ print(__str.strip())
 print("strip()方法：", end="")
 print(__str.strip(" *"))
 
-
 # format() 字符串格式化符，通过预留的 {} 占位符，向占位符添加字符串。类似填空题
 _name = "{} San".format("Zhang")
 print("format()方法：", end="")
 print(_name)
-
 
 """
 
