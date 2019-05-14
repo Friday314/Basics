@@ -50,3 +50,8 @@ if "李四" in names:
 
 if 'lisi' not in names:
     print("没有昵")
+
+# 列表切片
+print(names[1:3])
+print(names[1:])
+print(names[:3])
