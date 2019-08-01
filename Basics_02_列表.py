@@ -91,7 +91,6 @@ print("*"*30)
 # 使用range()函数时，可指定步长
 for value in range(1, 5):
     print(value)
-print("*"*30)
 
 # 使用list()将range()的结果直接转换为列表
 number = list(range(1, 6))
@@ -101,3 +100,10 @@ print(number)
 # range(2, 11, 2)，从2开始，然后不断加2，直到达到或超过终值11
 number = list(range(2, 11, 2))
 print(number)
+print("*"*30)
+
+# 列表解析
+# 定义一个列表名，然后指定左方括号，并定义一个表达式，用于生成你要存储到列表中的值。在这个示例中，表达式为value**2,它计算的平方值。接下来，
+# 编写一个for循环，用于给表达式赋值，再加上一个有方括号。
+squares = [value**2 for value in range(1, 11)]
+print(squares)
