@@ -1,0 +1,103 @@
+'''
+列表
+'''
+
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+
+# 访问列表元素
+print(bicycles[2])
+print("*"*30)
+
+# 访问列表元素加首字母大写
+print(bicycles[2].title())
+print("*"*30)
+
+# 访问列表最后一个元素
+print(bicycles[-1])
+print("*"*30)
+
+# 修改表元素
+bicycles[0] = 'ducati'
+print(bicycles)
+print("*"*30)
+
+# 列表中添加元素
+# 添加在列表的末尾
+bicycles.append('New_trek')
+print(bicycles)
+
+# 在列表的指定位置添加元素
+bicycles.insert(0, 'New')
+print(bicycles)
+print("*"*30)
+
+# 删除列表元素
+# 根据元素下标删除
+del bicycles[0]
+print(bicycles)
+
+# 删除(弹出)列表末尾的元素
+# 被弹出的元素
+# 可被访问
+popped = bicycles.pop()
+print(bicycles)
+print(popped)
+
+# 根据下标删除(弹出)元素
+popped = bicycles.pop(2)
+print(bicycles)
+print(popped)
+print("*"*30)
+
+# 根据值删除元素
+# remove()只删除第一个指定的值，如果要删除的值可能在列表中出现多次，就需要循环判断来删除所有指定的值
+bicycles.remove('cannondale')
+print(bicycles)
+print("*"*30)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+# 对列表进行永久性排序
+cars.sort()
+print(cars)
+
+# 倒序排序
+cars.sort(reverse=True)
+print(cars)
+print("*"*30)
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+# 临时排序
+print(sorted(cars))
+print(cars)
+
+# 确认列表长度
+print(len(bicycles))
+print("*"*30)
+
+magicians = ['alice', 'david', 'carolina']
+
+# 遍历列表
+for magician in magicians:
+    print(magician)
+print("*"*30)
+
+# 创建数值列表
+# 使用函数range(1, 5)，创建1 - 5，不包含5的数字
+# 使用range()函数时，可指定步长
+for value in range(1, 5):
+    print(value)
+print("*"*30)
+
+# 使用list()将range()的结果直接转换为列表
+number = list(range(1, 6))
+print(number)
+
+# 步长
+# range(2, 11, 2)，从2开始，然后不断加2，直到达到或超过终值11
+number = list(range(2, 11, 2))
+print(number)
