@@ -3,17 +3,15 @@
 
 '''
 
-
 # 随机数库
 import random
 # 导入,数学相关库
 import math
 
-
 print("Hello Word")
 print("你好！世界！")
 
-print("-"*30)
+print("-" * 30)
 
 '''
     占位符     转换
@@ -53,87 +51,86 @@ print("变量：")
 _number = 100
 print("_number = %d" % _number)
 print(type(_number))
-print("*"*30)
+print("*" * 30)
 
 _message = "Hello Word"
 print("_message = %s" % _message)
 print(type(_message))
-print("*"*30)
+print("*" * 30)
 
 _bool = True
 print("_bool = %s" % _bool)
 print(type(_bool))
-print("*"*30)
+print("*" * 30)
 
 _list = [1, 2, 3, 4, 5]
 print("_list = %s" % _list)
 print(type(_list))
-print("*"*30)
+print("*" * 30)
 
 _tup = (1, 2, 3, 4, 5)
 print("_tup = ", _tup)
 print(type(_tup))
-print("*"*30)
+print("*" * 30)
 
 _dict = {"Name": "ZhangSan",
          "Age": 18}
 print("_dict = %s" % _dict)
 print(type(_dict))
-print("-"*30)
+print("-" * 30)
 
 # 返回数字的绝对值 abs
 Number = 10
 print(abs(Number))
-print("*"*30)
+print("*" * 30)
 
 # 返回给定参数的最大值 max
 print(max(9, 3, 46, 1884, 35, 32843, 321564, 3212))
-print("*"*30)
+print("*" * 30)
 
 # 返回给定参数的最小值 min
 print(min(9, 3, 46, 1884, 35, 32843, 321564, 3212))
-print("*"*30)
+print("*" * 30)
 
 # 求X的Y次方 pow
 print(pow(2, 5))
-print("*"*30)
+print("*" * 30)
 
 # 四舍五入,或取小数位 round
 print(round(3.456))
 print(round(3.556))
 print(round(3.456, 1))
 print(round(3.456, 2))
-print("*"*30)
+print("*" * 30)
 
 # 向上取整
 print(math.ceil(18.1))
 print(math.ceil(18.9))
-print("*"*30)
+print("*" * 30)
 
 # 向下取整
 print(math.floor(18.1))
 print(math.floor(18.9))
-print("*"*30)
+print("*" * 30)
 
 # 返回整数部分与小数部分
 print(math.modf(22.3))
-print("*"*30)
+print("*" * 30)
 
 # 开方
 print(math.sqrt(16))
-print("*"*30)
+print("*" * 30)
 
 # 随机数
 
 # 随机输出列表中的数值
 print(random.choice([1, 2, 3, 9, 5, 4, 6, 7, 4, 4, 5, 6, 7]))
-print("*"*30)
+print("*" * 30)
 
 # 产生一个1-100之间的随机数
 rand = random.choice(range(100)) + 1
 print(rand)
-print("-"*30)
-
+print("-" * 30)
 
 # 字符串
 # 字符串就是一系列字符。在Python中，用引号括起来的都是字符串，其中的引号可以是单引号，也可以是双引号。
@@ -144,65 +141,65 @@ print("-"*30)
 _name = "{} San".format("Zhang")
 print("format()方法：", end="")
 print(_name)
-print("*"*30)
+print("*" * 30)
 
 myStr = "    Hello \n Worle    "
 
 # .find()   根据字符，找到返回下标，找不到返回-1
 # .rfind()  从左边开始查找
 print(myStr.find("H"))
-print("*"*30)
+print("*" * 30)
 
 # .index()  根据字符，找到返回下标，找不到就报错
 # .rindex() 从左边开始查找
 print(myStr.index("e"))
-print("*"*30)
+print("*" * 30)
 
 # .count()  查找字符出现的次数
 print(myStr.count("o"))
-print("*"*30)
+print("*" * 30)
 
 # .replace() 替换
 # .replace("原字符", "替换的字符", 替换的次数(可选))
 print(myStr.replace("Worle", "Word"))
-print("*"*30)
+print("*" * 30)
 
 # .split()  切割，返回列表
 print(myStr.split(" "))
-print("*"*30)
+print("*" * 30)
 
 # .splitlines() 根据换行符切割
 print(myStr.splitlines())
-print("*"*30)
+print("*" * 30)
 
 # .partition()  分割，返回元祖
 # .rpartition() 从右边开始查找
 print(myStr.partition("o"))
-print("*"*30)
+print("*" * 30)
 
 # .capitalize() 字符串首字母大写
 print(myStr.capitalize())
-print("*"*30)
+print("*" * 30)
 
 # .title()  字符串每个单词的首字母大写
 print(myStr.title())
-print("*"*30)
+print("*" * 30)
 
 # .lower()  全部小写
 print(myStr.lower())
-print("*"*30)
+print("*" * 30)
 
 # .upper()  全部大写
 print(myStr.upper())
-print("*"*30)
+print("*" * 30)
 
 # .startswith() 判断以什么开头
 print(myStr.startswith("W"))
-print("*"*30)
+print("*" * 30)
 
 # .endswith()   判断以什么结尾
 print(myStr.endswith("e"))
-print("*"*30)
+print("*" * 30)
 
 '''
 # .rjust()  右对齐
@@ -217,27 +214,27 @@ print(myStr.center())
 
 # .rstrip() 去右空格
 print(myStr.rstrip())
-print("*"*30)
+print("*" * 30)
 
 # .lstrip() 去左空格
 print(myStr.lstrip())
-print("*"*30)
+print("*" * 30)
 
 # .strip()  去左右空格
 print(myStr.strip())
-print("*"*30)
+print("*" * 30)
 
 # .isalnum()    判断字符串是不是纯字母
 print(myStr.isalnum())
-print("*"*30)
+print("*" * 30)
 
 # .isdigit()    判断字符串是不是纯数字
 print(myStr.isdigit())
-print("*"*30)
+print("*" * 30)
 
 # .isalnum()    判断字符串是不是字符与数字的组合
 print(myStr.isalnum())
-print("*"*30)
+print("*" * 30)
 
 names = ["张三", "李四", "王五"]
 
