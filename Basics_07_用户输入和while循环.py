@@ -1,24 +1,36 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time        : 2019/5/8 15:51
-# @Author     : 张正
-# @Email       : zhangzheng@email.com
-# @Site         :
-# @File          : Basics_04_运算符与表达式.py
-# @Software  : PyCharm
+'''
+用户输入和while循环
+'''
+
+# 扫描控制台,获得用户的输入信息
+# input() 输入函数
+Number1 = int(input("请输入第一个数字:"))
+
+Number2 = int(input("请输入第二个数字:"))
+
+Temp = Number1 + Number2
+
+print("Number1 + Number2 = ", Temp)
+
+# 查看变量的内存地址 id
+print(id(Temp))
+
+# 删除变量 del
+
+del Temp
+
+# 删除变量之后,在调用变量,程序报错
+# print(Temp)
 
 
-"""
-
+'''
 while 条件:
     循环体
 
 手动死循环
 while True:
     循环体
-
-"""
-
+'''
 _i = 1
 
 while _i <= 10:
@@ -31,7 +43,7 @@ for 循环
 
 for item in iterable:
     do
-    
+
 item        表示元素
 iterable    是集合
 
@@ -82,3 +94,4 @@ while _i <= 9:
     print("")
 
     _i += 1
+

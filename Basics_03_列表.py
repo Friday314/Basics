@@ -55,6 +55,13 @@ print("*" * 30)
 # remove()只删除第一个指定的值，如果要删除的值可能在列表中出现多次，就需要循环判断来删除所有指定的值
 bicycles.remove('cannondale')
 print(bicycles)
+
+# 清空列表
+# bicycles.clear()
+
+# 获取元素重复次数
+print(bicycles.count('redline'))
+
 print("*" * 30)
 
 cars = ['bmw', 'audi', 'toyota', 'subaru']
