@@ -1,6 +1,8 @@
-"""
-文件读写
+'''
+文件
+'''
 
+"""
 Python 中通过open() 函数打开文件
 
 语法
@@ -27,7 +29,6 @@ readlines() 按行读取，返回列表
 
 文件写入，可加入转义字符
 
-
 文件定位读写
 seek(offset, from)
 
@@ -36,26 +37,74 @@ from:方向
     0:表示文件开头
     1:表示当前位置
     2:表示文件末尾
-
 """
 
-# 打开、创建文件,使用写模式，追加
-f = open('txt/Python_One.txt', "a+")
+# 文件读取
 
-# 写入文件的参数
-f.write("Hello Word!\n")
-f.write("Hello Python\n")
+# 关键字with在不再需要访问文件后将其关闭。在这个程序中，注意到我们调用了open()，但没有调用close()；
+# 你也可以调用open()和close()来打开和关闭文件，但这样做时，如果程序存在bug，导致close()语句未执行，文件将不会关闭
+# open()，如果省略了读写模式，open默认为读模式
+with open('pi_digitx.txt') as file_object:
+    contents = file_object.read()
+    # print(contents)
+    # 删除字符串末尾的空白
+    # ???好像结尾的空白行没删除掉
+    # print(contents.rstrip())
 
-# 关闭文件
-f.close()
+# 逐行读取
 
-f = open('txt/Python_One.txt', "r")
+filename = 'pi_digitx.txt'
+with open(filename) as file_object:
+    for line in file_object.readlines():
+        # print(line)
+        print(line.rstrip())
 
-# 读取文件
-print(f.read())
+print('-' * 30)
 
-# 关闭文件
-f.close()
+filename = 'pi_million_digits.txt'
+
+with open(filename) as file_object:
+    lines = file_object.readlines()
+
+pi_string = ''
+
+for line in lines:
+    pi_string += line.strip()
+
+print('π = ' + pi_string[:52] + '...')
+print('π长度为：' + str(len(pi_string)))
+
+print('-' * 30)
+
+# 获得用户输入的出生年月日
+# birthday = input('请输入出生年月日(900101):')
+birthday = '900722'
+
+# 判断年月日是否出现在pi出现
+if birthday in pi_string:
+    print('Yes')
+else:
+    print('No')
+
+print('-' * 30)
+
+# 文件写入
+# Python只能将字符串写入到文本文件，要将数值数据存储到文本文件中，必须先使用函数str()将去转换为字符串格式
+
+filename = 'programming.txt'
+
+# 打开文件，写入模式，如果文件不存在，则创建一个
+# w 写入模式，如果原文件存在内容，则覆盖原内容
+with open(filename, 'w') as file_object:
+    # 写入默认是不换行的，如需换行，需要添加换行符
+    # file_object.write('I Love programming')
+    file_object.write('I Love programming\n')
+    file_object.write('I Love creating new games.\n')
+
+# a 追加模式，不会覆盖文件内容，数据添加在原内容的末尾
+with open(filename, 'a') as file_object:
+    file_object.write('这是附加行1.\n')
+    file_object.write('这是附加行2.\n')
 
 # 练习题，制作文件备份
 

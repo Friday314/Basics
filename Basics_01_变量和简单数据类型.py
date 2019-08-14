@@ -3,10 +3,10 @@
 
 '''
 
-# 随机数库
-import random
 # 导入,数学相关库
 import math
+# 随机数库
+import random
 
 print("Hello Word")
 print("你好！世界！")
@@ -242,3 +242,6 @@ a = "——"
 
 # .join() 通过一个字符把列表组合成成字符串
 print(a.join(names))
+
+# 查找替换，讲语句中的1，替换成2
+myStr.replace('1', '2')
