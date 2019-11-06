@@ -257,3 +257,25 @@ myStr.replace('1', '2')
     全局作用域
     内建作用据
 '''
+
+# 定义一个全局变量
+wendu = 33
+
+
+def get_wendu():
+    # 定义的局部变量
+    # wendu = 30
+
+    """
+    如果：全局变量与局部变量重名，在方法中调用时，默认调用局部变量
+    """
+
+    # 使用global用来声明一个变量，那么就是对全局变量来进行修改
+    global wendu
+
+    wendu = 40
+
+    print(wendu)
+
+
+get_wendu()
