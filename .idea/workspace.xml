@@ -56,7 +56,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Basics_01_变量和简单数据类型">
+  <component name="RunManager" selected="Python.Basics_12_异常">
     <configuration name="Basics_01_变量和简单数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Basics_13_存储数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Basics_12_异常" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics_13_存储数据.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics_12_异常.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Basics_12_异常" />
         <item itemvalue="Python.Basics_01_变量和简单数据类型" />
         <item itemvalue="Python.Basics_09_类" />
         <item itemvalue="Python.Basics_03_列表" />
         <item itemvalue="Python.zz_09_递归" />
-        <item itemvalue="Python.Basics_13_存储数据" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,13 @@
       <workItem from="1572939635338" duration="62000" />
       <workItem from="1572939761805" duration="20000" />
       <workItem from="1572939797516" duration="123000" />
-      <workItem from="1572939944847" duration="905000" />
+      <workItem from="1572939944847" duration="1465000" />
+      <workItem from="1572941428912" duration="153000" />
+      <workItem from="1572941595711" duration="43000" />
+      <workItem from="1572941679608" duration="191000" />
+      <workItem from="1572941922933" duration="95000" />
+      <workItem from="1572942040713" duration="7000" />
+      <workItem from="1572943680827" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -410,7 +416,7 @@
     <SUITE FILE_PATH="coverage/Basics$Basics_09_.coverage" NAME="Basics_09_类 Coverage Results" MODIFIED="1572940465947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$zz_08__.coverage" NAME="zz_08_可变_不可变类型 Coverage Results" MODIFIED="1557821199284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_02_input.coverage" NAME="Basics_02_input输入 Coverage Results" MODIFIED="1557300616377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Basics$Basics_12_.coverage" NAME="Basics_12_异常 Coverage Results" MODIFIED="1565766758584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$Basics_12_.coverage" NAME="Basics_12_异常 Coverage Results" MODIFIED="1573022883336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_08_.coverage" NAME="Basics_08_函数 Coverage Results" MODIFIED="1564990082789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_04_if.coverage" NAME="Basics_04_if语句 Coverage Results" MODIFIED="1564651914660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_01_Hell_Work.coverage" NAME="Basics_01_Hell_Work Coverage Results" MODIFIED="1564630532937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
