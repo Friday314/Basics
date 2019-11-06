@@ -121,3 +121,12 @@ mp(12, 'mushrooms', 'green peppers', 'extra cheese')
 from Pizza import *
 
 make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+
+
+# 通用装饰器
+def outer(func):
+    def inner(*args,**kwargs):
+        # 添加修改功能
+        pass
+
+    return inner()
