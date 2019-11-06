@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="变量作用域">
-      <change beforePath="$PROJECT_DIR$/Basics_01_变量和简单数据类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_01_变量和简单数据类型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics_12_异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_12_异常.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Basics_10_继承">
+  <component name="RunManager" selected="Python.Basics_12_异常">
     <configuration name="Basics_01_变量和简单数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Basics_12_异常" />
         <item itemvalue="Python.Basics_10_继承" />
         <item itemvalue="Python.Basics_09_类" />
-        <item itemvalue="Python.Basics_12_异常" />
         <item itemvalue="Python.Basics_01_变量和简单数据类型" />
         <item itemvalue="Python.Basics_03_列表" />
       </list>
@@ -260,7 +261,7 @@
       <workItem from="1572941922933" duration="95000" />
       <workItem from="1572942040713" duration="7000" />
       <workItem from="1572943680827" duration="11000" />
-      <workItem from="1573022829946" duration="3422000" />
+      <workItem from="1573022829946" duration="6603000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -388,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573026511891</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="变量作用域">
+      <created>1573026816250</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573026816250</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +449,7 @@
     <SUITE FILE_PATH="coverage/Basics$Basics_09_.coverage" NAME="Basics_09_类 Coverage Results" MODIFIED="1573023609596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$zz_08__.coverage" NAME="zz_08_可变_不可变类型 Coverage Results" MODIFIED="1557821199284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_02_input.coverage" NAME="Basics_02_input输入 Coverage Results" MODIFIED="1557300616377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Basics$Basics_12_.coverage" NAME="Basics_12_异常 Coverage Results" MODIFIED="1573022883336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$Basics_12_.coverage" NAME="Basics_12_异常 Coverage Results" MODIFIED="1573029753681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_08_.coverage" NAME="Basics_08_函数 Coverage Results" MODIFIED="1564990082789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_04_if.coverage" NAME="Basics_04_if语句 Coverage Results" MODIFIED="1564651914660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_01_Hell_Work.coverage" NAME="Basics_01_Hell_Work Coverage Results" MODIFIED="1564630532937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

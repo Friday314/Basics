@@ -1,5 +1,18 @@
 '''
 异常
+
+格式：
+    try:
+        语句，可能会出现错误的语句
+    except 错误码 as e:
+        出现错误执行的语句
+        ...
+    except 错误码 as e:
+        出现错误执行的语句
+        ...
+    else:
+        语句，当以上错误码都未捕获到的错误，就执行else里面的语句代码
+        ...
 '''
 
 # 报错代码
@@ -29,3 +42,79 @@ try:
         contents = f_obj.read()
 except FileNotFoundError:
     print('没有找到' + filename + '文件。')
+
+print('-' * 30)
+
+# 基本常用异常代码这么写
+try:
+    print(4/0)
+except :
+    # 写入错误日志
+    print("程序出现异常")
+
+print('-' * 30)
+
+# 基本常用异常代码这么写
+try:
+    print(4/0)
+# 一个except捕获多种异常
+except(ZeroDivisionError,FileNotFoundError) :
+    # 写入错误日志
+    print("程序出现异常")
+
+print('-' * 30)
+
+# BaseException 所有错误都继承自BaseException，可以捕获所有的异常错误
+try:
+    print(4/0)
+except BaseException:
+    # 写入错误日志
+    print("程序出现异常")
+
+print('-' * 30)
+
+'''
+异常
+
+格式：
+    try:
+        语句，可能会出现错误的语句
+    except 错误码 as e:
+        出现错误执行的语句
+        ...
+    except 错误码 as e:
+        出现错误执行的语句
+        ...
+    finaiiy:
+        不论try语句是否有错误，都会执行finaiiy语句
+        ...
+'''
+
+try:
+    print(1/0)
+except ZeroDivisionError:
+    print("为0了")
+finally:
+    print("我会执行")
+
+print('-' * 30)
+
+try:
+    print(1/1)
+except ZeroDivisionError:
+    print("为0了")
+finally:
+    print("我会执行")
+
+print('-' * 30)
+
+'''
+断言
+'''
+
+def func(mun,div):
+    assert (div != 0),"div不能为0"
+    return mun / div
+
+
+print(func(10,0))
