@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="变量作用域">
+    <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="异常捕获处理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_12_异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_12_异常.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_06_类 函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_07_引用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_08_可变_不可变类型.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_13_魔法方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_14_隐藏属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_15_私有方法.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +30,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zz_16_del.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_11_文件.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_10_继承.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_09_类.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_12_异常.py" root0="SKIP_INSPECTION" />
@@ -261,7 +268,7 @@
       <workItem from="1572941922933" duration="95000" />
       <workItem from="1572942040713" duration="7000" />
       <workItem from="1572943680827" duration="11000" />
-      <workItem from="1573022829946" duration="6603000" />
+      <workItem from="1573022829946" duration="7907000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -396,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573026816250</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="异常捕获处理">
+      <created>1573030097298</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573030097298</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +449,8 @@
     <MESSAGE value="都是啥？" />
     <MESSAGE value="新增装饰器" />
     <MESSAGE value="变量作用域" />
-    <option name="LAST_COMMIT_MESSAGE" value="变量作用域" />
+    <MESSAGE value="异常捕获处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常捕获处理" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Basics$Basics_03_.coverage" NAME="Basics_03_列表 Coverage Results" MODIFIED="1571190473026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
