@@ -83,3 +83,37 @@ def getAllDirDE(path):
 
 
 getAllDirDE(r"D:\Cache")
+
+# 队列模拟递归遍历目录（广度遍历）
+
+import collections
+
+
+def getAllDirQU(path):
+    queue = collections.deque()
+
+    # 进队
+    queue.append(path)
+
+    while len(queue) != 0:
+        # 出队
+        dirPath = queue.popleft()
+
+        # 找出所有的文件
+        filesList = os.listdir(dirPath)
+
+        for fileName in filesList:
+
+            fileAbsPath = os.path.join(dirPath, fileName)
+
+            # 如果是文件夹，就进队。否则就打印普通文件
+            if os.path.isdir(fileAbsPath):
+                print("目录：", fileName)
+
+                # 进队
+                queue.append(fileAbsPath)
+            else:
+                print("普通文件：", fileName)
+
+
+getAllDirQU(r"D:\Cache")
