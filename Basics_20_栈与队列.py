@@ -47,3 +47,39 @@ print(queue)
 res5 = queue.popleft()
 print(res5)
 print(queue)
+
+# 栈模拟递归遍历目录（深度遍历）
+import os
+
+
+def getAllDirDE(path):
+    # 第一个栈
+    stack = []
+
+    # 压栈
+    stack.append(path)
+
+    # 处理栈，当栈为空时停止循环
+    while len(stack) != 0:
+        # 取出栈数据
+        dirPath = stack.pop()
+        print(dirPath)
+
+        # 目录下所有文件
+        filesList = os.listdir(dirPath)
+        print(filesList)
+        # 判断是否是文件夹或者文件，文件夹压栈，普通文件打印输出
+        for fileNmae in filesList:
+
+            fileAbsPath = os.path.join(dirPath, fileNmae)
+
+            if os.path.isdir(fileAbsPath):
+
+                # 如果是文件夹，就压栈。否则就打印普通文件
+                print("目录：", fileNmae)
+                stack.append(fileAbsPath)
+            else:
+                print("普通文件：", fileNmae)
+
+
+getAllDirDE(r"D:\Cache")
