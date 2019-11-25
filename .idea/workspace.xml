@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="修改内存">
+    <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="递归">
+      <change afterPath="$PROJECT_DIR$/Basics_20_栈与队列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_14_递归.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics_19_递归.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +27,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Basics_16_OS 模块.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zz_16_del.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Basics_11_文件.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zz_正则表达式.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Basics_10_继承.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Basics_09_类.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_15_异常.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_09_类.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_10_继承.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zz_16_del.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_16_OS 模块.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zz_正则表达式.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_11_文件.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -51,7 +53,7 @@
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Python38/python x86.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +64,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,51 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Basics_17_OS 窗体控制">
-    <configuration name="Basics_11_文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Basics" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics_11_文件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Basics_12_文件_编码与解码" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Basics" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics_12_文件_编码与解码.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Basics_20_栈">
     <configuration name="Basics_13_文件_list-tuple-dict-set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,13 +145,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Basics_19_递归" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics_19_递归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Basics_20_栈" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\Basics\Basics_20_栈与队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Basics_20_栈" />
+        <item itemvalue="Python.Basics_19_递归" />
         <item itemvalue="Python.Basics_17_OS 窗体控制" />
         <item itemvalue="Python.Basics_13_文件_list-tuple-dict-set" />
         <item itemvalue="Python.Basics_16_OS 模块" />
-        <item itemvalue="Python.Basics_12_文件_编码与解码" />
-        <item itemvalue="Python.Basics_11_文件" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +285,14 @@
       <workItem from="1573610316044" duration="1389000" />
       <workItem from="1573614888953" duration="1721000" />
       <workItem from="1573693949803" duration="3133000" />
-      <workItem from="1573701462807" duration="7442000" />
+      <workItem from="1573701462807" duration="8440000" />
+      <workItem from="1574038931451" duration="1314000" />
+      <workItem from="1574407414241" duration="65000" />
+      <workItem from="1574407498506" duration="11000" />
+      <workItem from="1574408962577" duration="29000" />
+      <workItem from="1574415607754" duration="142000" />
+      <workItem from="1574651835014" duration="2314000" />
+      <workItem from="1574665314989" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -453,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573722851133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="递归">
+      <created>1573724480546</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724480546</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +513,9 @@
     <MESSAGE value="学习了OS模块" />
     <MESSAGE value="折腾了好久，发现win32gui不支持Python3.8&#10;故而使用了pypiwin32" />
     <MESSAGE value="修改内存" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改内存" />
+    <MESSAGE value="递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Basics$Basics_16_OS_.coverage" NAME="Basics_16_OS 模块 Coverage Results" MODIFIED="1573111810267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -506,6 +524,7 @@
     <SUITE FILE_PATH="coverage/Basics$zz_09_.coverage" NAME="zz_09_递归 Coverage Results" MODIFIED="1567762660945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_02_.coverage" NAME="Basics_02_列表 Coverage Results" MODIFIED="1564650458041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_06_.coverage" NAME="Basics_06_字典 Coverage Results" MODIFIED="1564979583185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$Basics_19_.coverage" NAME="Basics_19_递归 Coverage Results" MODIFIED="1574415689593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_09_turtle.coverage" NAME="Basics_09_turtle模块绘图 Coverage Results" MODIFIED="1558320427210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_09_.coverage" NAME="Basics_09_类 Coverage Results" MODIFIED="1573023609596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$zz_.coverage" NAME="zz_正则表达式 Coverage Results" MODIFIED="1573106206390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -515,6 +534,7 @@
     <SUITE FILE_PATH="coverage/Basics$Basics_01_Hell_Work.coverage" NAME="Basics_01_Hell_Work Coverage Results" MODIFIED="1564630532937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_04_.coverage" NAME="Basics_04_运算符与表达式 Coverage Results" MODIFIED="1557302686583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_03_.coverage" NAME="Basics_03_列表 Coverage Results" MODIFIED="1571190473026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$Basics_20_.coverage" NAME="Basics_20_栈 Coverage Results" MODIFIED="1574667580215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_01_.coverage" NAME="Basics_01_变量和简单数据类型 Coverage Results" MODIFIED="1572940863242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_13_.coverage" NAME="Basics_13_存储数据 Coverage Results" MODIFIED="1566356356038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_02_input.coverage" NAME="Basics_02_input输入 Coverage Results" MODIFIED="1557300616377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
