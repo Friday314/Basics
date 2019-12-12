@@ -13,18 +13,18 @@ if __name__ == "__main__":
 
     print(__name__)
 
-    print("这是sunck.py文件")
+    print("这是Text/sunck.py文件")
 
 else:
 
     print(__name__)
 
     def sayGood():
-        print("sunck is a Good man!")
+        print("sunck is a very Good man!")
 
 
     def sayNice():
-        print("sunck is a Nice man!")
+        print("sunck is a very Nice man!")
 
 
 import time
