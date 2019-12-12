@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cf33ce-bbd3-4fbb-b3c9-302bd2ac28ad" name="默认更改列表" comment="啥都没干">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rAvailablePackageCache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics_21_Time - datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/电脑性能测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics_21_Time.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +23,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Basics_15_异常.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Basics_19_递归.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_20_栈与队列.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_09_类.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_10_继承.py" root0="SKIP_INSPECTION" />
@@ -40,6 +32,8 @@
     <setting file="file://$PROJECT_DIR$/Basics_18_OS 内存修改.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zz_正则表达式.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Basics_11_文件.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_15_异常.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Basics_19_递归.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -76,9 +70,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.Basics_21_Time - datetime">
+  <component name="RunManager" selected="Python.电脑性能测试">
     <configuration name="电脑性能测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,9 +229,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.电脑性能测试" />
         <item itemvalue="Python.Basics_21_Time - datetime" />
         <item itemvalue="Python.Basics_21_Time" />
-        <item itemvalue="Python.电脑性能测试" />
         <item itemvalue="Python.Basics_20_栈与队列" />
         <item itemvalue="Python.Basics_18_OS 内存修改" />
       </list>
@@ -373,6 +367,7 @@
       <workItem from="1575964731264" duration="38000" />
       <workItem from="1575967253426" duration="3620000" />
       <workItem from="1576063333402" duration="4450000" />
+      <workItem from="1576112422070" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1557290675541</created>
@@ -666,29 +661,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="711" y="262" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575554872008" />
-    <state width="1921" height="222" key="GridCell.Tab.0.bottom" timestamp="1576067175892">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576113508809">
+      <screen x="1440" y="-104" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.-104.1920.1040@1440.-104.1920.1040" timestamp="1576113508809" />
     <state width="1921" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576067175892" />
-    <state width="1921" height="222" key="GridCell.Tab.0.center" timestamp="1576067175892">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576113508809">
+      <screen x="1440" y="-104" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1440.860/1440.-104.1920.1040@1440.-104.1920.1040" timestamp="1576113508809" />
     <state width="1921" height="222" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576067175892" />
-    <state width="1921" height="222" key="GridCell.Tab.0.left" timestamp="1576067175892">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576113508809">
+      <screen x="1440" y="-104" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1440.860/1440.-104.1920.1040@1440.-104.1920.1040" timestamp="1576113508809" />
     <state width="1921" height="222" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576067175892" />
-    <state width="1921" height="222" key="GridCell.Tab.0.right" timestamp="1576067175892">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576113508809">
+      <screen x="1440" y="-104" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1440.860/1440.-104.1920.1040@1440.-104.1920.1040" timestamp="1576113508809" />
     <state width="1921" height="222" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576067175892" />
     <state x="435" y="198" width="1194" height="666" key="IDE.errors.dialog" timestamp="1575968208357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="435" y="198" width="1194" height="666" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575968208357" />
-    <state x="536" y="89" width="1331" height="855" key="SettingsEditor" timestamp="1576066459320">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1976" y="-16" width="1331" height="855" key="SettingsEditor" timestamp="1576113210884">
+      <screen x="1440" y="-104" width="1920" height="1040" />
     </state>
+    <state x="1976" y="-16" key="SettingsEditor/0.0.1440.860/1440.-104.1920.1040@1440.-104.1920.1040" timestamp="1576113210884" />
     <state x="536" y="89" width="1331" height="855" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576066459320" />
     <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1576065644588">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -710,7 +710,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Basics$zz_09_.coverage" NAME="zz_09_递归 Coverage Results" MODIFIED="1567762660945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_13_.coverage" NAME="Basics_13_存储数据 Coverage Results" MODIFIED="1566356356038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Basics$.coverage" NAME="电脑性能测试 Coverage Results" MODIFIED="1576065602410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Basics$.coverage" NAME="电脑性能测试 Coverage Results" MODIFIED="1576112476399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_18_OS_.coverage" NAME="Basics_18_OS 内存修改 Coverage Results" MODIFIED="1575182443208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_09_turtle.coverage" NAME="Basics_09_turtle模块绘图 Coverage Results" MODIFIED="1558320427210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Basics$Basics_09_.coverage" NAME="Basics_09_类 Coverage Results" MODIFIED="1573023609596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
