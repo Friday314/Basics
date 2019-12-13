@@ -45,8 +45,23 @@ import Text.sunck as ts
 ts.sayGood()
 ts.sayNice()
 
-
 '''
 3、第三方模块
     Pillow  非常强大的处理图像的工具库
 '''
+
+# 引入了三方库
+from PIL import Image
+
+# 打开图片
+im = Image.open("./Image/夜空下4k壁纸_彼岸图网.jpg")
+
+# 查看图片信息
+print(im.format, im.size, im.mode)
+
+# 设置图片大小
+im.thumbnail((150, 100))
+
+# 保存成新的图片
+im.save("./Image/temp.jpg","JPEG")
+
