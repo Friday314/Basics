@@ -3,7 +3,7 @@
 '''
 
 # 导入Car类
-from Basics_09_类 import Car
+from Basics_21_类 import Car
 
 
 # 创建子类，继承Car，父类

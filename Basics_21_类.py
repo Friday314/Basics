@@ -1,5 +1,12 @@
 '''
-类
+创建类
+类：一种数据类型，本身并不占内存空间，跟所学过的number,string,boolean等类似。
+用类创建实例化对象都（变量），对象占内存空间
+
+格式：
+class 类名(父类列表):
+    属性
+    行为（方法）
 '''
 
 
@@ -77,6 +84,7 @@ my_new_car.read_odometer()
 # 通过方法修改属性的值
 my_new_car.update_odometer(24)
 my_new_car.read_odometer()
+
 
 class A:
     def __init__(self):
