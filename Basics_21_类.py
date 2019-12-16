@@ -22,6 +22,11 @@ class Dog():
         self.name = name
         self.age = age
 
+    # 释放对象时，执行的函数
+    # 自动执行
+    def __del__(self):
+        print("我是析构函数")
+
     def sit(self):
         '''模拟小狗被命令时蹲下'''
         print(self.name.title() + ' is now sitting.')
@@ -110,6 +115,10 @@ b = B()
 print(b.num1)
 b.text1()
 b.test3()
+
+# 手动释放对象，后面将不能再调用
+del b
+b.text1()
 
 """
 如果调用的是继承的父类中的共有方法
