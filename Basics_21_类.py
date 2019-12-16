@@ -97,11 +97,13 @@ my_new_car.read_odometer()
 class A:
     def __init__(self):
         self.num1 = 100
+        # 访问权限，如果要让内部属性不被外部直接访问，就在变量名前加两个下划线
         self.__num2 = 200
 
     def text1(self):
         print("=====test1=====")
 
+    # 私有方法，不让外部调用
     def __test2(self):
         print("=====test2=====")
 
@@ -120,8 +122,8 @@ b.text1()
 b.test3()
 
 # 手动释放对象，后面将不能再调用
-del b
-b.text1()
+# del b
+# b.text1()
 
 """
 如果调用的是继承的父类中的共有方法
