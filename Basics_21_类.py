@@ -27,6 +27,9 @@ class Dog():
     def __del__(self):
         print("我是析构函数")
 
+    def __str__(self):
+        print(self.name,self.age)
+
     def sit(self):
         '''模拟小狗被命令时蹲下'''
         print(self.name.title() + ' is now sitting.')
