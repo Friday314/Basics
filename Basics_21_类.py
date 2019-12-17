@@ -111,6 +111,17 @@ class A:
         self.__test2()
         print(self.__num2)
 
+    # 通过@property实现有访问权限的属性
+    @property
+    def num2(self):
+        return self.__num2
+    # 通过.setter 修改有访问权限的属性
+    @num2.setter
+    def num2(self,num2):
+        if num2 < 0:
+            num2 = 0
+        self.__num2 = num2
+
 
 class B(A):
     pass
@@ -120,6 +131,12 @@ b = B()
 print(b.num1)
 b.text1()
 b.test3()
+
+
+b.num2 = 10000
+print(b.num2)
+
+
 
 # 手动释放对象，后面将不能再调用
 # del b
